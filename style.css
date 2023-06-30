@@ -1,0 +1,347 @@
+html, body {
+    margin: 0;
+    padding:0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template:
+    "menuList menuList menuList menuList menuList menuList"
+    "personalWrap personalWrap personalWrap personalWrap personalWrap personalWrap"
+    "itWrap itWrap itWrap itWrap itWrap itWrap"
+    "busWrap busWrap busWrap busWrap busWrap busWrap"
+    "offersWrap offersWrap offersWrap offersWrap offersWrap offersWrap"
+    "itExpWrap itExpWrap itExpWrap itExpWrap itExpWrap itExpWrap"
+    "footerWrap footerWrap footerWrap footerWrap footerWrap footerWrap"
+    ;
+    justify-items: center;
+}
+
+.menuList {
+    display: grid;
+    grid-area: menuList;
+    width: 100%;
+    background-color: lightgray;
+    justify-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 99;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigationWrap {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-items: center;
+}
+
+.listWrap {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    border: 5px solid lightblue;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.navigationWrap a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.list:hover {
+    background-color: darkgrey;
+}
+
+.personalWrap {
+    grid-area: personalWrap;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    height: 100vh;
+}
+
+.contactWrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 80%;
+}
+
+.personalItemWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Rowdies', cursive;
+}
+
+.h1Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 3em;
+    margin: 0;
+    height: 100px;
+    position: relative;
+    top: 60px;
+}
+
+.personalPhoto {
+    display: flex;
+    align-items: center;
+}
+
+.imgPhoto {
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.itemWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.personalItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.personalItemLink {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalItem strong {
+    margin-left: 30px;
+}
+
+.linkedin {
+    width: 500px;
+}
+
+.watsupp {
+    width: 300px;
+    height: auto;
+}
+
+.telegram {
+    width: 80px;
+    height: auto;
+}
+
+.gmail {
+    width: 250px;
+    height: auto;
+}
+
+
+.itWrap {
+    grid-area: itWrap;
+    display: grid;
+    width: 100%;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    height: 100vh;
+    position: relative;
+    top: 60px;
+}
+
+.itWrap > a {
+    width: 0;
+    height: 0;
+}
+
+.h1MenuBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 3em;
+    margin: 0;
+    height: 100px;
+}
+
+.logoWrapIt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.itLogo {
+    height: 300px;
+    width: auto;
+    margin: 0 40px;
+}
+
+.itExpWrap {
+    grid-area: itExpWrap;
+    display: grid;
+}
+
+.busWrap {
+    grid-area: busWrap;
+    display: grid;
+    border: 10px solid gainsboro;
+    width: 99%;
+    height: 100vh;
+    position: relative;
+    top:60px;
+    align-items: center;
+}
+
+.busWrap > a {
+    height: 0;
+    width: 0;
+}
+
+.busDivWrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.logoWrapBus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.busItem{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.busLogo {
+    height: auto;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.offersWrap {
+    grid-area: offersWrap;
+    display: grid;
+    width: 100%;
+    background-color: lightgreen;
+    border-radius: 20px;
+    height: 100vh;
+    position: relative;
+    top: 60px;
+}
+
+.offersItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.itemDescription {
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+}
+
+footer {
+    grid-area: footerWrap;
+    display: grid;
+}
+
+.footerWrap {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contactWrap{
+        width: 100%;
+        height: 40%;
+    }
+
+    .h1Menu {
+        top:120px
+    }
+
+    .itLogo {
+        height: 160px;
+    }
+
+    .busWrap {
+        align-items: center;
+    }
+
+    .logoWrapIt{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .logoWrapBus {
+        height: 110%;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .busLogo {
+        width: 200px;
+        padding: 30px;
+    }
+}
