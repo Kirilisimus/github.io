@@ -344,3 +344,9 @@ h1 {
         padding: 30px;
     }
 }
+
+@media only screen and (max-height: 650px) {
+    .info {
+        font-size: 0.5em;
+    }
+}
