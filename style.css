@@ -349,4 +349,8 @@ h1 {
     .h1Menu {
         display: none;
     }
+
+    .info {
+        margin-top: 30px;
+    }
 }
