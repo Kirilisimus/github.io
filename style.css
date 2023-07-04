@@ -346,14 +346,9 @@ h1 {
 }
 
 @media only screen and (max-height: 650px) {
-    .info {
+    .h1Menu {
         display: none;
     }
-
-    .itLogo {
-        height: 80px;
-    }    
-
     .busLogo {
         width: 100px;
     }
@@ -361,5 +356,11 @@ h1 {
     .linkedin {
         width: 250px;
     } 
+}
 
+@media only screen and (max-height: 750px) {
+    .itLogo {
+        height: 100px;
+        overflow: hidden;
+    }
 }
