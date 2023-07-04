@@ -349,4 +349,7 @@ h1 {
     .info {
         display: none;
     }
+
+    .itLogo {
+        height: 80px;
 }
