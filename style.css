@@ -346,11 +346,7 @@ h1 {
 }
 
 @media only screen and (max-height: 650px) {
-    .h1Menu {
-        display: none;
-    }
-
     .info {
-        margin-top: 50px;
+        display: none;
     }
 }
